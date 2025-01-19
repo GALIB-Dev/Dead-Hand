@@ -1,0 +1,33 @@
+.container {
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid #ff4444;
+    box-shadow: 0 0 20px #ff4444;
+}
+
+.pulse-effect {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 20px #ff4444; }
+    50% { box-shadow: 0 0 40px #ff4444; }
+    100% { box-shadow: 0 0 20px #ff4444; }
+}
+
+.warning-pulse {
+    animation: warning-flash 1s infinite;
+    color: #ff4444 !important;
+}
+
+@keyframes warning-flash {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#countdown {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2em;
+    text-shadow: 0 0 10px #ff4444;
+}

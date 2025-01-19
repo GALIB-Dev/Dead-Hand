@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dead Hand - Security Protocol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self' http: ws: wss:; form-action 'self';">
+    <style>
+        :root {
+            --primary-color: #00ff4c;
+            --bg-color: #1a1a1a;
+            --container-bg: #242424;
+            --padding-base: clamp(1rem, 3vw, 2rem);
+            --font-size-base: clamp(16px, 2.5vw, 18px);
+            --error-color: #ff3333;
+            --success-color: #00ff4c;
+            --warning-color: #ffbb00;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: var(--bg-color);
+            color: var(--primary-color);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: var(--padding-base);
+            font-size: var(--font-size-base);
+            overscroll-behavior: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(
+                    transparent 0,
+                    rgba(0, 255, 76, 0.05) 2px,
+                    transparent 4px
+                );
+            pointer-events: none;
+        }
+
+        .container {
+            background: var(--container-bg);
+            padding: var(--padding-base);
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 255, 76, 0.2);
+            border: 1px solid rgba(0, 255, 76, 0.1);
+            width: min(90%, 500px);
+            position: relative;
+            animation: pulse 4s infinite;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+        }
+
+        .container.hidden {
+            transform: scale(0.9);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 5vw, 2rem);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0 0 1.5rem 0;
+            line-height: 1.2;
+            text-shadow: 0 0 10px rgba(0, 255, 76, 0.5);
+        }
+
+        .password-input {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 12px;
+            font-family: 'Courier New', monospace;
+            height: clamp(44px, 8vh, 60px);
+            font-size: clamp(16px, 2.5vw, 20px);
+            width: 100%;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+            border-radius: 8px;
+            -webkit-appearance: none;
+        }
+
+        .password-input:focus {
+            outline: none;
+            box-shadow: 0 0 15px rgba(0, 255, 76, 0.3);
+        }
+
+        button {
+            background: transparent;
+            color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            padding: clamp(10px, 2vw, 16px) clamp(20px, 4vw, 32px);
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            min-height: 44px;
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            margin-top: 1rem;
+            -webkit-appearance: none;
+            touch-action: manipulation;
+        }
+
+        button:hover {
+            background: var(--primary-color);
+            color: var(--bg-color);
+            box-shadow: 0 0 20px rgba(0, 255, 76, 0.4);
+        }
+
+        .countdown {
+            font-size: clamp(1.2rem, 4vw, 2rem);
+            margin: 1.5rem 0;
+            padding: 1rem;
+            border: 1px solid var(--primary-color);
+            background: rgba(0, 0, 0, 0.2);
+            text-shadow: 0 0 10px rgba(0, 255, 76, 0.5);
+            word-break: break-word;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 20px rgba(0, 255, 76, 0.2); }
+            50% { box-shadow: 0 0 30px rgba(0, 255, 76, 0.4); }
+            100% { box-shadow: 0 0 20px rgba(0, 255, 76, 0.2); }
+        }
+
+        #status {
+            margin: 1rem 0;
+            opacity: 0.8;
+        }
+
+        .error {
+            color: #ff3333;
+            text-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: calc(var(--padding-base) * 0.8);
+            }
+
+            .password-form {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        @media (hover: hover) {
+            button:hover {
+                background: var(--primary-color);
+                color: var(--bg-color);
+                box-shadow: 0 0 20px rgba(0, 255, 76, 0.4);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation: none !important;
+                transition: none !important;
+            }
+        }
+
+        @supports not (backdrop-filter: blur(10px)) {
+            .container {
+                background: var(--container-bg);
+            }
+        }
+
+        .dashboard {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--bg-color);
+            padding: var(--padding-base);
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-out;
+        }
+
+        .dashboard.visible {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            opacity: 1;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .dashboard-panel {
+            background: var(--container-bg);
+            border: 1px solid var(--primary-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 0 20px rgba(0, 255, 76, 0.2);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .dashboard-panel::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--primary-color);
+            animation: scan 2s linear infinite;
+        }
+
+        .login-history {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.9rem;
+        }
+
+        .login-entry {
+            padding: 0.5rem;
+            border-bottom: 1px solid rgba(0, 255, 76, 0.2);
+        }
+
+        .system-info {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 255, 76, 0.2);
+        }
+
+        .dashboard-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .rules-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .rules-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 255, 76, 0.2);
+        }
+
+        /* Matrix rain effect */
+        #matrix-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        /* New system monitor panel */
+        .system-monitor {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .monitor-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: rgba(0, 255, 76, 0.2);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-bar div {
+            height: 100%;
+            background: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        /* New animations */
+        @keyframes scan {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100vh); }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 20px rgba(0, 255, 76, 0.2); }
+            50% { box-shadow: 0 0 30px rgba(0, 255, 76, 0.4); }
+            100% { box-shadow: 0 0 20px rgba(0, 255, 76, 0.2); }
+        }
+
+        .warning-pulse {
+            animation: warningPulse 1s infinite;
+        }
+
+        @keyframes warningPulse {
+            0% { background: rgba(255, 0, 0, 0.1); }
+            50% { background: rgba(255, 0, 0, 0.2); }
+            100% { background: rgba(255, 0, 0, 0.1); }
+        }
+
+        /* Add this to your existing styles */
+        .close-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: var(--primary-color);
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+
+        .close-button:hover {
+            background: var(--primary-color);
+            color: var(--bg-color);
+            transform: rotate(90deg);
+            box-shadow: 0 0 15px var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="matrix-bg"></canvas>
+    <div class="container" id="loginContainer">
+        <h1>Dead Hand Protocol</h1>
+        <div id="status">Authentication Required</div>
+        
+        <form id="passwordForm" class="password-form">
+            <input type="password" 
+                   id="passwordInput" 
+                   class="password-input" 
+                   placeholder="ENTER SECURITY CODE"
+                   required>
+            <button type="submit">AUTHENTICATE</button>
+        </form>
+        <div class="countdown" id="countdown">SYSTEM STANDBY</div>
+    </div>
+
+    <div class="dashboard" id="dashboard">
+        <div class="dashboard-panel">
+            <h2 class="dashboard-title">System Status</h2>
+            <div id="countdown" class="countdown">LOADING...</div>
+        </div>
+
+        <div class="dashboard-panel">
+            <h2 class="dashboard-title">Verification History</h2>
+            <div id="loginHistory" class="login-history">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </div>
+        <!-- Removed exit button -->
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/verification.js"></script>
+    <script src="/js/matrix.js"></script>
+</body>
+</html>
