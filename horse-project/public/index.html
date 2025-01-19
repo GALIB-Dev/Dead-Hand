@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dead Hand System</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dead Hand Verification System</h1>
+    <div id="status"></div>
+    <script>
+        const socket = io();
+        
+        socket.on('countdown-status', (data) => {
+            document.getElementById('status').textContent = 
+                `System Status: ${data.isRunning ? 'Active' : 'Inactive'}\n` +
+                `Time Remaining: ${Math.floor(data.remainingSeconds / 3600)}h ${Math.floor((data.remainingSeconds % 3600) / 60)}m`;
+        });
+    </script>
+</body>
+</html>

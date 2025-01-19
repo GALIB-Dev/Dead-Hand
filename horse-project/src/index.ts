@@ -62,8 +62,16 @@ app.use(rateLimit({
 }));
 
 // Static file serving
-app.use(express.static(path.join(__dirname, '../src/public')));
+app.use(express.static(path.join(__dirname, '../public')));
 app.use('/socket.io', express.static(path.join(__dirname, '../node_modules/socket.io/client-dist')));
+
+// Ensure the public directory exists and route all unknown paths to index.html for SPA
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api')) {
+    return next();
+  }
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
 
 // Add API test routes BEFORE other route handlers
 app.get('/api/test', (_, res) => {
