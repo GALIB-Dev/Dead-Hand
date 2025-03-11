@@ -168,7 +168,7 @@ const connectDB = async () => {
           }
         });
       });
-      // Retry connection after starting service
+      // Retry connection after starting.. service
       await mongoose.connect(MONGO_URI);
       logger.info('Connected to MongoDB after service start');
       return true;
