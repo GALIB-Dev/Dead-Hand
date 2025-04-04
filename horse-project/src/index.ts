@@ -310,7 +310,7 @@ setInterval(async () => {
       console.error('Failed to send alert:', error);
     }
   }
-}, 60 * 60 * 1000); // Check every hour
+}, 60 * 60 * 1000); // Check every hours
 
 // Generate a secure random token
 function generateToken(): string {
