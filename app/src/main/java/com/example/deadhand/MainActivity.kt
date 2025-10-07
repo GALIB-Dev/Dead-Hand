@@ -731,7 +731,7 @@ class MainActivity : Activity() {
         // Profile Image
         val profileImage = android.widget.ImageView(this)
         try {
-            val bitmap = android.graphics.BitmapFactory.decodeStream(assets.open("profile_image.jpg"))
+            val bitmap = android.graphics.BitmapFactory.decodeStream(assets.open("profile_image.png"))
             profileImage.setImageBitmap(bitmap)
         } catch (e: Exception) {
             // Fallback to a simple colored rectangle if image fails to load
