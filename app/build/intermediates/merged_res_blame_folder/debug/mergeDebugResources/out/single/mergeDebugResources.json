@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -8,8 +12,40 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.deadhand.app-debug-48:/drawable_profile_image.jpg.flat",
-        "source": "com.example.deadhand.app-main-50:/drawable/profile_image.jpg"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\drawable_profile_image_drawable.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\drawable\\profile_image_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\drawable_profile_image.jpg.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\drawable\\profile_image.jpg"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/drawable_ic_dead_hand_launcher.xml.flat",
+        "source": "com.example.deadhand.app-main-50:/drawable/ic_dead_hand_launcher.xml"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-mdpi/ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\drawable_ic_dead_hand_launcher.xml.flat",
@@ -20,35 +56,47 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\activity_spy_satellite.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\xml\\backup_rules.xml"
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\fragment_first.xml"
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\xml\\backup_rules.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_content_main.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\activity_main.xml"
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.deadhand.app-debug-48:/drawable_profile_image_drawable.xml.flat",
-        "source": "com.example.deadhand.app-main-50:/drawable/profile_image_drawable.xml"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\fragment_second.xml"
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-debug-48:\\layout_activity_spy_profile.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\8.13\\com.example.deadhand.app-main-50:\\layout\\activity_spy_profile.xml"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.deadhand.app-main-50:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.deadhand.app-debug-48:/drawable_bangladesh_emblem.png.flat",
+        "source": "com.example.deadhand.app-main-50:/drawable/bangladesh_emblem.png"
     }
 ]

@@ -5,34 +5,30 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     
-    <!-- Background circle - ANHS Blue -->
+    <!-- Background circle - Bangladesh Green -->
     <path
         android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10s10,-4.48 10,-10S17.52,2 12,2z"
-        android:fillColor="#2196F3"/>
+        android:fillColor="#006A4E"/>
     
-    <!-- School building -->
+    <!-- Bangladesh Star -->
     <path
-        android:pathData="M7,18h10v-2H7v2z"
+        android:pathData="M12,5L13.5,9L18,9L14.5,12L16,16L12,13L8,16L9.5,12L6,9L10.5,9L12,5Z"
         android:fillColor="#FFFFFF"/>
+    
+    <!-- Spy theme elements -->
     <path
-        android:pathData="M6,16h12v-6H6v6z"
-        android:fillColor="#FFFFFF"/>
+        android:pathData="M8,12h2v1H8v-1z"
+        android:fillColor="#F42A41"/>
     <path
-        android:pathData="M12,6L8,10h8L12,6z"
+        android:pathData="M14,12h2v1h-2v-1z"
+        android:fillColor="#F42A41"/>
+    
+    <!-- Center emblem elements -->
+    <path
+        android:pathData="M10,14h4v1h-4v-1z"
         android:fillColor="#FFD700"/>
-    
-    <!-- Windows -->
     <path
-        android:pathData="M8,12h1.5v2H8v-2z"
-        android:fillColor="#2196F3"/>
-    <path
-        android:pathData="M10.5,12h1.5v2h-1.5v-2z"
-        android:fillColor="#2196F3"/>
-    <path
-        android:pathData="M12.5,12h1.5v2h-1.5v-2z"
-        android:fillColor="#2196F3"/>
-    <path
-        android:pathData="M14.5,12h1.5v2h-1.5v-2z"
-        android:fillColor="#2196F3"/>
+        android:pathData="M11,15h2v2h-2v-2z"
+        android:fillColor="#006A4E"/>
     
 </vector>

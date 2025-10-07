@@ -56,6 +56,7 @@ dimen fab_margin
 dimen system_padding
 dimen text_margin
 dimen warning_text_size
+drawable bangladesh_emblem
 drawable ic_dead_hand_launcher
 drawable profile_image
 drawable profile_image_drawable
