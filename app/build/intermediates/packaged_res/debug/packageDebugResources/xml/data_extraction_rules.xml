@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Exclude all security-related data from cloud backup -->
+        <exclude domain="sharedpref" path="."/>
+        <exclude domain="database" path="."/>
+        <exclude domain="file" path="security/"/>
+    </cloud-backup>
+    <device-transfer>
+        <!-- Allow basic app data transfer but exclude security data -->
+        <include domain="file" path="logs/"/>
+        <exclude domain="sharedpref" path="security_settings.xml"/>
+    </device-transfer>
+</data-extraction-rules>

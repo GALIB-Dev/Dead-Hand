@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spy Dark Theme -->
+    <style name="Theme.DeadHand" parent="Theme.Material3.Dark">
+        <!-- Primary spy green -->
+        <item name="colorPrimary">@color/spy_neon_green</item>
+        <item name="colorPrimaryVariant">@color/spy_neon_blue</item>
+        <item name="colorOnPrimary">@color/spy_black</item>
+        <!-- Secondary orange accent -->
+        <item name="colorSecondary">@color/spy_neon_orange</item>
+        <item name="colorSecondaryVariant">@color/spy_neon_red</item>
+        <item name="colorOnSecondary">@color/spy_black</item>
+        <!-- Dark background -->
+        <item name="android:colorBackground">@color/spy_black</item>
+        <item name="colorSurface">@color/spy_surface</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/spy_black</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/spy_text_primary</item>
+        <item name="android:textColorSecondary">@color/spy_text_secondary</item>
+    </style>
+</resources>

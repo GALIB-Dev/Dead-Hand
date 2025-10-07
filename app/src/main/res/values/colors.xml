@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Launcher icon colors -->
+    <color name="ic_launcher_background">#2196F3</color>
+    
+    <!-- Spy Dark Theme Colors -->
+    <color name="spy_black">#0D0D0D</color>
+    <color name="spy_dark_gray">#1A1A1A</color>
+    <color name="spy_medium_gray">#2D2D2D</color>
+    <color name="spy_light_gray">#404040</color>
+    <color name="spy_surface">#151515</color>
+    <color name="spy_card">#1E1E1E</color>
+    
+    <!-- Spy Accent Colors -->
+    <color name="spy_neon_green">#00FF41</color>
+    <color name="spy_neon_blue">#00D4FF</color>
+    <color name="spy_neon_orange">#FF6B00</color>
+    <color name="spy_neon_red">#FF0040</color>
+    <color name="spy_neon_purple">#B300FF</color>
+    
+    <!-- Text Colors -->
+    <color name="spy_text_primary">#FFFFFF</color>
+    <color name="spy_text_secondary">#B0B0B0</color>
+    <color name="spy_text_tertiary">#808080</color>
+    <color name="spy_text_accent">#00FF41</color>
+    
+    <!-- Status Colors -->
+    <color name="spy_success">#00FF41</color>
+    <color name="spy_warning">#FF6B00</color>
+    <color name="spy_error">#FF0040</color>
+    <color name="spy_info">#00D4FF</color>
+    
+    <!-- Security Clearance Colors -->
+    <color name="clearance_alpha">#FF0040</color>
+    <color name="clearance_beta">#FF6B00</color>
+    <color name="clearance_gamma">#FFD700</color>
+    <color name="clearance_delta">#00FF41</color>
+    <color name="clearance_omega">#B300FF</color>
+    
+    <!-- Legacy colors -->
+    <color name="background_dark">#FF121212</color>
+    <color name="background_darker">#FF000000</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#FFCCCCCC</color>
+    <color name="text_danger">#FFFF4444</color>
+    <color name="text_warning">#FFFFBB33</color>
+    <color name="text_safe">#FF00C851</color>
+    
+    <!-- Button colors -->
+    <color name="button_danger">#FFCC0000</color>
+    <color name="button_warning">#FFFF8800</color>
+    <color name="button_safe">#FF00AA00</color>
+    <color name="button_neutral">#FF444444</color>
+    
+    <!-- Accent colors -->
+    <color name="accent_red">#FFFF1744</color>
+    <color name="accent_orange">#FFFF9100</color>
+    <color name="accent_green">#FF00E676</color>
+    
+    <!-- Material Design fallbacks -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

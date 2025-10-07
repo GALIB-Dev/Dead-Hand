@@ -1,0 +1,21 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "C:\\Program Files\\Android\\Android Studio\\jbr"
+        }
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "kotlin.languageServer.enabled": true,
+    "kotlin.debugAdapter.enabled": true,
+    "kotlin.compiler.jvm.target": "1.8",
+    "gradle.nestedProjects": true,
+    "java.jdt.ls.java.home": null,
+    "java.configuration.detectJdksAtStart": true,
+    "files.exclude": {
+        "**/.gradle": true,
+        "**/build": true,
+        "**/*.iml": true,
+        "**/.idea": true
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude sensitive security data from backups -->
+    <exclude domain="sharedpref" path="security_settings.xml"/>
+    <exclude domain="database" path="deadhand.db"/>
+</full-backup-content>

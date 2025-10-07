@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dead Hand</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Main Control</string>
+    <string name="second_fragment_label">Configuration</string>
+    <string name="configure_system">Configure System</string>
+    <string name="back_to_main">Back to Main</string>
+
+    <!-- Dead Hand specific strings -->
+    <string name="dead_hand_title">DEAD HAND SYSTEM</string>
+    <string name="system_status">System Status: STANDBY</string>
+    <string name="system_configuration">SYSTEM CONFIGURATION</string>
+    <string name="configuration_warning">⚠️ AUTHORIZED PERSONNEL ONLY ⚠️</string>
+    
+    <!-- Common UI strings -->
+    <string name="welcome_message">Dead Hand System Initialized</string>
+    <string name="activation_message">System Activated!</string>
+    <string name="security_alert">Security Protocol Engaged</string>
+</resources>
