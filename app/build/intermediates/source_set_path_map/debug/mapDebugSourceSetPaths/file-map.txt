@@ -1,52 +1,60 @@
-com.example.deadhand.app-lifecycle-viewmodel-2.7.0-0 C:\Users\USER\.gradle\caches\8.13\transforms\01fe21ee21851a52ee651a051a460be3\transformed\lifecycle-viewmodel-2.7.0\res
-com.example.deadhand.app-navigation-fragment-2.7.4-1 C:\Users\USER\.gradle\caches\8.13\transforms\075dcbdb333598529ac9ffc271a95a23\transformed\navigation-fragment-2.7.4\res
-com.example.deadhand.app-lifecycle-livedata-core-2.7.0-2 C:\Users\USER\.gradle\caches\8.13\transforms\0b8ad3e97bf2e86ac51ce2b7a36bd3ea\transformed\lifecycle-livedata-core-2.7.0\res
-com.example.deadhand.app-appcompat-1.6.1-3 C:\Users\USER\.gradle\caches\8.13\transforms\1212eafbb69bdc2a0ccf1730552b12ff\transformed\appcompat-1.6.1\res
-com.example.deadhand.app-navigation-ui-2.7.4-4 C:\Users\USER\.gradle\caches\8.13\transforms\2418d4f0f52c58666aa9743563a08cf7\transformed\navigation-ui-2.7.4\res
-com.example.deadhand.app-slidingpanelayout-1.2.0-5 C:\Users\USER\.gradle\caches\8.13\transforms\25497539fc34e47626f3fb2e8896b29f\transformed\slidingpanelayout-1.2.0\res
-com.example.deadhand.app-jetified-activity-ktx-1.8.0-6 C:\Users\USER\.gradle\caches\8.13\transforms\27dbf69da64e565baa81cea622061e46\transformed\jetified-activity-ktx-1.8.0\res
-com.example.deadhand.app-jetified-annotation-experimental-1.3.0-7 C:\Users\USER\.gradle\caches\8.13\transforms\2aefecdef483dc24aefda5ca4d26065b\transformed\jetified-annotation-experimental-1.3.0\res
-com.example.deadhand.app-navigation-common-ktx-2.7.4-8 C:\Users\USER\.gradle\caches\8.13\transforms\2d055e7cf8ba56f062dae14dd837c940\transformed\navigation-common-ktx-2.7.4\res
-com.example.deadhand.app-navigation-runtime-ktx-2.7.4-9 C:\Users\USER\.gradle\caches\8.13\transforms\31a85c471ed622881abbb2cf367aee65\transformed\navigation-runtime-ktx-2.7.4\res
-com.example.deadhand.app-jetified-lifecycle-process-2.7.0-10 C:\Users\USER\.gradle\caches\8.13\transforms\3e8770725b6f67f2baade2b0f3bdaf69\transformed\jetified-lifecycle-process-2.7.0\res
-com.example.deadhand.app-lifecycle-runtime-2.7.0-11 C:\Users\USER\.gradle\caches\8.13\transforms\46caeb819a410f308fc90b7f9aa269be\transformed\lifecycle-runtime-2.7.0\res
-com.example.deadhand.app-jetified-window-1.0.0-12 C:\Users\USER\.gradle\caches\8.13\transforms\502318d5188b30cab842049e2c2aba4f\transformed\jetified-window-1.0.0\res
-com.example.deadhand.app-recyclerview-1.1.0-13 C:\Users\USER\.gradle\caches\8.13\transforms\5a2e20c3a7e3e412e27eb5c534c2c52e\transformed\recyclerview-1.1.0\res
-com.example.deadhand.app-jetified-lifecycle-viewmodel-ktx-2.7.0-14 C:\Users\USER\.gradle\caches\8.13\transforms\5df442e9d4366bbb2715950b7d505500\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
-com.example.deadhand.app-core-runtime-2.2.0-15 C:\Users\USER\.gradle\caches\8.13\transforms\670f5a0f59fedee2686eb02af3c7f718\transformed\core-runtime-2.2.0\res
-com.example.deadhand.app-jetified-appcompat-resources-1.6.1-16 C:\Users\USER\.gradle\caches\8.13\transforms\694dfb0eab37e4729791905e4fc8d79e\transformed\jetified-appcompat-resources-1.6.1\res
-com.example.deadhand.app-jetified-savedstate-ktx-1.2.1-17 C:\Users\USER\.gradle\caches\8.13\transforms\81f69a37d977096cb38ea4186dd50d5c\transformed\jetified-savedstate-ktx-1.2.1\res
-com.example.deadhand.app-coordinatorlayout-1.1.0-18 C:\Users\USER\.gradle\caches\8.13\transforms\84817b776cf399f02eeb499eb2c0d402\transformed\coordinatorlayout-1.1.0\res
-com.example.deadhand.app-jetified-fragment-ktx-1.6.0-19 C:\Users\USER\.gradle\caches\8.13\transforms\88c04c32b8329eee783caaf71fde39f9\transformed\jetified-fragment-ktx-1.6.0\res
-com.example.deadhand.app-lifecycle-livedata-2.7.0-20 C:\Users\USER\.gradle\caches\8.13\transforms\8c3f3968e83039620fded6478c7ee8da\transformed\lifecycle-livedata-2.7.0\res
-com.example.deadhand.app-material-1.10.0-21 C:\Users\USER\.gradle\caches\8.13\transforms\908da84ce6d188a5ecc81691f0d6e1a0\transformed\material-1.10.0\res
-com.example.deadhand.app-navigation-fragment-ktx-2.7.4-22 C:\Users\USER\.gradle\caches\8.13\transforms\920255361f66480ba9804931512072ec\transformed\navigation-fragment-ktx-2.7.4\res
-com.example.deadhand.app-jetified-lifecycle-runtime-ktx-2.7.0-23 C:\Users\USER\.gradle\caches\8.13\transforms\936a5241951c5b284dab19eb7ea55cb6\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
-com.example.deadhand.app-jetified-startup-runtime-1.1.1-24 C:\Users\USER\.gradle\caches\8.13\transforms\a7d2aaa486df7772565f3ddcc3308021\transformed\jetified-startup-runtime-1.1.1\res
-com.example.deadhand.app-jetified-savedstate-1.2.1-25 C:\Users\USER\.gradle\caches\8.13\transforms\a91b82d149f7148e9349fc3e0406065a\transformed\jetified-savedstate-1.2.1\res
-com.example.deadhand.app-drawerlayout-1.1.1-26 C:\Users\USER\.gradle\caches\8.13\transforms\ac12830abee3a5343c1175c1b6e51240\transformed\drawerlayout-1.1.1\res
-com.example.deadhand.app-jetified-viewpager2-1.0.0-27 C:\Users\USER\.gradle\caches\8.13\transforms\b6592a479dfaab5bbb9995dca55dd3ca\transformed\jetified-viewpager2-1.0.0\res
-com.example.deadhand.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-28 C:\Users\USER\.gradle\caches\8.13\transforms\b97a2d8e8727e6662f10fe2e6686c702\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
-com.example.deadhand.app-jetified-lifecycle-livedata-ktx-2.7.0-29 C:\Users\USER\.gradle\caches\8.13\transforms\bb0e0a19d33b82f1182c7a6525dcad43\transformed\jetified-lifecycle-livedata-ktx-2.7.0\res
-com.example.deadhand.app-jetified-emoji2-views-helper-1.2.0-30 C:\Users\USER\.gradle\caches\8.13\transforms\bdf4328693eba3fdb2e0066026c244c0\transformed\jetified-emoji2-views-helper-1.2.0\res
-com.example.deadhand.app-fragment-1.6.0-31 C:\Users\USER\.gradle\caches\8.13\transforms\bf80dabba1428e40f97a2d9fabf60c6a\transformed\fragment-1.6.0\res
-com.example.deadhand.app-core-1.12.0-32 C:\Users\USER\.gradle\caches\8.13\transforms\c2191cd8642cf9c6b52e09b4fefef89d\transformed\core-1.12.0\res
-com.example.deadhand.app-jetified-core-ktx-1.12.0-33 C:\Users\USER\.gradle\caches\8.13\transforms\c2588183223517a52caad677369fbf0b\transformed\jetified-core-ktx-1.12.0\res
-com.example.deadhand.app-jetified-emoji2-1.2.0-34 C:\Users\USER\.gradle\caches\8.13\transforms\c38ce076afabb6bdbb35455e142c21a3\transformed\jetified-emoji2-1.2.0\res
-com.example.deadhand.app-navigation-ui-ktx-2.7.4-35 C:\Users\USER\.gradle\caches\8.13\transforms\d13bb6319495cf9a4d84ba60803a8f0b\transformed\navigation-ui-ktx-2.7.4\res
-com.example.deadhand.app-constraintlayout-2.1.4-36 C:\Users\USER\.gradle\caches\8.13\transforms\d90d5d8bd5281ca87f3552983909bfee\transformed\constraintlayout-2.1.4\res
-com.example.deadhand.app-jetified-lifecycle-livedata-core-ktx-2.7.0-37 C:\Users\USER\.gradle\caches\8.13\transforms\e98f539af617a6a07519904c2a2ae0b4\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
-com.example.deadhand.app-navigation-runtime-2.7.4-38 C:\Users\USER\.gradle\caches\8.13\transforms\f39fed8022b8f85e8a9b0a1154e6f062\transformed\navigation-runtime-2.7.4\res
-com.example.deadhand.app-transition-1.4.1-39 C:\Users\USER\.gradle\caches\8.13\transforms\f698730f047c497d3aed14b3e6cd2d81\transformed\transition-1.4.1\res
-com.example.deadhand.app-jetified-profileinstaller-1.3.0-40 C:\Users\USER\.gradle\caches\8.13\transforms\f761ba4153e0a71e837897ea5b36a245\transformed\jetified-profileinstaller-1.3.0\res
-com.example.deadhand.app-navigation-common-2.7.4-41 C:\Users\USER\.gradle\caches\8.13\transforms\f919bbb9aac441fc5ab33a7bd796a3a6\transformed\navigation-common-2.7.4\res
-com.example.deadhand.app-cardview-1.0.0-42 C:\Users\USER\.gradle\caches\8.13\transforms\fd8856b0439801effa9fe2f52e21bdb4\transformed\cardview-1.0.0\res
-com.example.deadhand.app-jetified-activity-1.8.0-43 C:\Users\USER\.gradle\caches\8.13\transforms\feaa20f54576e9f46894e1a7f249b7a5\transformed\jetified-activity-1.8.0\res
-com.example.deadhand.app-pngs-44 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\res\pngs\debug
-com.example.deadhand.app-resValues-45 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\res\resValues\debug
-com.example.deadhand.app-updated_navigation_xml-46 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\updated_navigation_xml\debug
-com.example.deadhand.app-packageDebugResources-47 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.deadhand.app-packageDebugResources-48 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.deadhand.app-debug-49 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.example.deadhand.app-debug-50 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\src\debug\res
-com.example.deadhand.app-main-51 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\src\main\res
+com.example.deadhand.app-jetified-emoji2-1.2.0-0 C:\Users\USER\.gradle\caches\8.13\transforms\03ef8f5f3834ca27de7d4dfac53445d0\transformed\jetified-emoji2-1.2.0\res
+com.example.deadhand.app-jetified-savedstate-ktx-1.2.1-1 C:\Users\USER\.gradle\caches\8.13\transforms\049de27e3ef0476b0e0250157f4e8973\transformed\jetified-savedstate-ktx-1.2.1\res
+com.example.deadhand.app-core-runtime-2.2.0-2 C:\Users\USER\.gradle\caches\8.13\transforms\076777b0826ca04f1383b05b4c463cd9\transformed\core-runtime-2.2.0\res
+com.example.deadhand.app-fragment-1.6.0-3 C:\Users\USER\.gradle\caches\8.13\transforms\0a016c874422bf08b92b53f2c194e0af\transformed\fragment-1.6.0\res
+com.example.deadhand.app-jetified-core-ktx-1.12.0-4 C:\Users\USER\.gradle\caches\8.13\transforms\0d2db4fe802b34d348f7444dc1aa48c9\transformed\jetified-core-ktx-1.12.0\res
+com.example.deadhand.app-jetified-activity-1.8.0-5 C:\Users\USER\.gradle\caches\8.13\transforms\11ef9c22b3d9d7752664856e60d89ebb\transformed\jetified-activity-1.8.0\res
+com.example.deadhand.app-jetified-lifecycle-viewmodel-ktx-2.7.0-6 C:\Users\USER\.gradle\caches\8.13\transforms\265da5e7639acc6c9a6967e2e265c4b8\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\res
+com.example.deadhand.app-jetified-profileinstaller-1.3.0-7 C:\Users\USER\.gradle\caches\8.13\transforms\27546c3c183a9bc1098bde61ea13097d\transformed\jetified-profileinstaller-1.3.0\res
+com.example.deadhand.app-jetified-window-1.0.0-8 C:\Users\USER\.gradle\caches\8.13\transforms\2b408464ecb904240cdf87a87604cebd\transformed\jetified-window-1.0.0\res
+com.example.deadhand.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-9 C:\Users\USER\.gradle\caches\8.13\transforms\2e866813f80611438d0567734912e1bf\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.deadhand.app-navigation-ui-ktx-2.7.4-10 C:\Users\USER\.gradle\caches\8.13\transforms\3a6a8233d7a46fe2c0434f074a65f988\transformed\navigation-ui-ktx-2.7.4\res
+com.example.deadhand.app-navigation-runtime-2.7.4-11 C:\Users\USER\.gradle\caches\8.13\transforms\3af560dd01ee4b99f5e92ab6c6fa9dee\transformed\navigation-runtime-2.7.4\res
+com.example.deadhand.app-recyclerview-1.1.0-12 C:\Users\USER\.gradle\caches\8.13\transforms\3bf15ef3e1d230770f513829f08b6db7\transformed\recyclerview-1.1.0\res
+com.example.deadhand.app-navigation-fragment-2.7.4-13 C:\Users\USER\.gradle\caches\8.13\transforms\442fb4a820eacea85ac042a5bdcc1701\transformed\navigation-fragment-2.7.4\res
+com.example.deadhand.app-jetified-ads-adservices-1.0.0-beta05-14 C:\Users\USER\.gradle\caches\8.13\transforms\4b2b0f3edc3c0c150c843b4a6b8dfee5\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.example.deadhand.app-lifecycle-livedata-core-2.7.0-15 C:\Users\USER\.gradle\caches\8.13\transforms\56f44cc62b7fbb7169f656b73cb85c98\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.deadhand.app-jetified-activity-ktx-1.8.0-16 C:\Users\USER\.gradle\caches\8.13\transforms\5ad80077366657aa1089a6a926b6345c\transformed\jetified-activity-ktx-1.8.0\res
+com.example.deadhand.app-lifecycle-livedata-2.7.0-17 C:\Users\USER\.gradle\caches\8.13\transforms\5f6623a77869c6358dc45d662fffc966\transformed\lifecycle-livedata-2.7.0\res
+com.example.deadhand.app-jetified-appcompat-resources-1.6.1-18 C:\Users\USER\.gradle\caches\8.13\transforms\677c732a41bcd37e5a2493aa498f44bf\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.deadhand.app-jetified-lifecycle-process-2.7.0-19 C:\Users\USER\.gradle\caches\8.13\transforms\69abc69615a430acf1a27309a1395144\transformed\jetified-lifecycle-process-2.7.0\res
+com.example.deadhand.app-jetified-ads-adservices-java-1.0.0-beta05-20 C:\Users\USER\.gradle\caches\8.13\transforms\76ca862f4ead82c7e7b3da97fc179633\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.example.deadhand.app-jetified-viewpager2-1.0.0-21 C:\Users\USER\.gradle\caches\8.13\transforms\774f4eb178736e4b9b0c954d60917120\transformed\jetified-viewpager2-1.0.0\res
+com.example.deadhand.app-jetified-play-services-measurement-api-21.5.0-22 C:\Users\USER\.gradle\caches\8.13\transforms\7dc650e7ea4cd4a2ab8c5b94d162321f\transformed\jetified-play-services-measurement-api-21.5.0\res
+com.example.deadhand.app-browser-1.4.0-23 C:\Users\USER\.gradle\caches\8.13\transforms\868128ff4c7a35aafc217339c3a1d23e\transformed\browser-1.4.0\res
+com.example.deadhand.app-transition-1.4.1-24 C:\Users\USER\.gradle\caches\8.13\transforms\890ebf71debb0fd5382eb11ce7711fe4\transformed\transition-1.4.1\res
+com.example.deadhand.app-jetified-emoji2-views-helper-1.2.0-25 C:\Users\USER\.gradle\caches\8.13\transforms\892141827d6ed4d6a454be1ccd44f2f5\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.deadhand.app-core-1.12.0-26 C:\Users\USER\.gradle\caches\8.13\transforms\8f1c51c9ab56b5dc1996ced26e75d977\transformed\core-1.12.0\res
+com.example.deadhand.app-navigation-runtime-ktx-2.7.4-27 C:\Users\USER\.gradle\caches\8.13\transforms\90b44cdafc418aae1ae3dab13ee20b24\transformed\navigation-runtime-ktx-2.7.4\res
+com.example.deadhand.app-lifecycle-runtime-2.7.0-28 C:\Users\USER\.gradle\caches\8.13\transforms\90fbd9886119e124349f83d0f7806076\transformed\lifecycle-runtime-2.7.0\res
+com.example.deadhand.app-jetified-lifecycle-runtime-ktx-2.7.0-29 C:\Users\USER\.gradle\caches\8.13\transforms\9965c5cbdf2d3fd5f0564d2d94a05a77\transformed\jetified-lifecycle-runtime-ktx-2.7.0\res
+com.example.deadhand.app-drawerlayout-1.1.1-30 C:\Users\USER\.gradle\caches\8.13\transforms\aeb659c5e328e01e18d2888916b45e55\transformed\drawerlayout-1.1.1\res
+com.example.deadhand.app-jetified-startup-runtime-1.1.1-31 C:\Users\USER\.gradle\caches\8.13\transforms\b22ce21c538ea46a489faf52f73507e0\transformed\jetified-startup-runtime-1.1.1\res
+com.example.deadhand.app-slidingpanelayout-1.2.0-32 C:\Users\USER\.gradle\caches\8.13\transforms\b38d8afffa69d25560dcbae4a8c94967\transformed\slidingpanelayout-1.2.0\res
+com.example.deadhand.app-navigation-common-ktx-2.7.4-33 C:\Users\USER\.gradle\caches\8.13\transforms\b615b5844b9d8af2a1d6d3ccbb07d16f\transformed\navigation-common-ktx-2.7.4\res
+com.example.deadhand.app-coordinatorlayout-1.1.0-34 C:\Users\USER\.gradle\caches\8.13\transforms\b9ee681e073720b07d356a8f84d2e5b3\transformed\coordinatorlayout-1.1.0\res
+com.example.deadhand.app-lifecycle-viewmodel-2.7.0-35 C:\Users\USER\.gradle\caches\8.13\transforms\ba6ba27de8b4176caafe26f399b314e8\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.deadhand.app-jetified-lifecycle-livedata-ktx-2.7.0-36 C:\Users\USER\.gradle\caches\8.13\transforms\bb0f93d357b9620acb0a0830065f52f8\transformed\jetified-lifecycle-livedata-ktx-2.7.0\res
+com.example.deadhand.app-jetified-lifecycle-livedata-core-ktx-2.7.0-37 C:\Users\USER\.gradle\caches\8.13\transforms\bc86c253c414d07e0ea3e46c7ecd8dfa\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.example.deadhand.app-jetified-firebase-common-20.4.2-38 C:\Users\USER\.gradle\caches\8.13\transforms\c557050176f531929615a0cace7329b8\transformed\jetified-firebase-common-20.4.2\res
+com.example.deadhand.app-appcompat-1.6.1-39 C:\Users\USER\.gradle\caches\8.13\transforms\c6dbfcc4cb15cad05d7b6b6817d2f678\transformed\appcompat-1.6.1\res
+com.example.deadhand.app-navigation-common-2.7.4-40 C:\Users\USER\.gradle\caches\8.13\transforms\c826e8f34c64a10cd749c5363565ac4b\transformed\navigation-common-2.7.4\res
+com.example.deadhand.app-jetified-play-services-base-18.0.1-41 C:\Users\USER\.gradle\caches\8.13\transforms\c83ca88615aeb744e33e44aed384d184\transformed\jetified-play-services-base-18.0.1\res
+com.example.deadhand.app-jetified-fragment-ktx-1.6.0-42 C:\Users\USER\.gradle\caches\8.13\transforms\ca1695703f5469003e82d6ff5c22587e\transformed\jetified-fragment-ktx-1.6.0\res
+com.example.deadhand.app-material-1.10.0-43 C:\Users\USER\.gradle\caches\8.13\transforms\ceedcaf1dfb41351d9f5fcec2671b0de\transformed\material-1.10.0\res
+com.example.deadhand.app-jetified-annotation-experimental-1.3.0-44 C:\Users\USER\.gradle\caches\8.13\transforms\cfca37c436eec20c575084785058ac9c\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.deadhand.app-jetified-savedstate-1.2.1-45 C:\Users\USER\.gradle\caches\8.13\transforms\d4921d1ad6ff4d780366d9e9bc1044c1\transformed\jetified-savedstate-1.2.1\res
+com.example.deadhand.app-cardview-1.0.0-46 C:\Users\USER\.gradle\caches\8.13\transforms\dba3bee29180477657bd3bdc243bba01\transformed\cardview-1.0.0\res
+com.example.deadhand.app-navigation-ui-2.7.4-47 C:\Users\USER\.gradle\caches\8.13\transforms\e7d35acf84bffe316cc9305d93be00b1\transformed\navigation-ui-2.7.4\res
+com.example.deadhand.app-constraintlayout-2.1.4-48 C:\Users\USER\.gradle\caches\8.13\transforms\f429d6b55f48a4846856393ff7188a4b\transformed\constraintlayout-2.1.4\res
+com.example.deadhand.app-jetified-play-services-basement-18.1.0-49 C:\Users\USER\.gradle\caches\8.13\transforms\f6c01967672d11448a7eaf279b313ea2\transformed\jetified-play-services-basement-18.1.0\res
+com.example.deadhand.app-navigation-fragment-ktx-2.7.4-50 C:\Users\USER\.gradle\caches\8.13\transforms\fa18f66bc27837cadcadbfc21281f3bb\transformed\navigation-fragment-ktx-2.7.4\res
+com.example.deadhand.app-pngs-51 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\res\pngs\debug
+com.example.deadhand.app-res-52 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\res\processDebugGoogleServices
+com.example.deadhand.app-resValues-53 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\res\resValues\debug
+com.example.deadhand.app-updated_navigation_xml-54 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\generated\updated_navigation_xml\debug
+com.example.deadhand.app-packageDebugResources-55 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.deadhand.app-packageDebugResources-56 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.deadhand.app-debug-57 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.deadhand.app-debug-58 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\src\debug\res
+com.example.deadhand.app-main-59 C:\Users\USER\Downloads\NEW project\Dead-Hand\app\src\main\res

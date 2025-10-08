@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">YOUR_CLIENT_ID</string>
+    <string name="gcm_defaultSenderId" translatable="false">YOUR_PROJECT_NUMBER</string>
+    <string name="google_api_key" translatable="false">YOUR_API_KEY</string>
+    <string name="google_app_id" translatable="false">YOUR_APP_ID</string>
+    <string name="google_crash_reporting_api_key" translatable="false">YOUR_API_KEY</string>
+    <string name="google_storage_bucket" translatable="false">dead-hand-spy-app.appspot.com</string>
+    <string name="project_id" translatable="false">dead-hand-spy-app</string>
+</resources>
