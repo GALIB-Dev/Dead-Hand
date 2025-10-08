@@ -4013,7 +4013,6 @@ string configuration_warning
 string configure_system
 string copy_toast_msg
 string dead_hand_title
-string default_web_client_id
 string dest_title
 string error_a11y_label
 string error_icon_content_description

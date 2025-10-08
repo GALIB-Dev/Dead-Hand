@@ -2093,7 +2093,6 @@
     <string name="configure_system">Configure System</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="dead_hand_title">DEAD HAND SYSTEM</string>
-    <string name="default_web_client_id" translatable="false">YOUR_CLIENT_ID</string>
     <string name="dest_title">destination title</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
@@ -2106,11 +2105,11 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="first_fragment_label">Main Control</string>
-    <string name="gcm_defaultSenderId" translatable="false">YOUR_PROJECT_NUMBER</string>
-    <string name="google_api_key" translatable="false">YOUR_API_KEY</string>
-    <string name="google_app_id" translatable="false">YOUR_APP_ID</string>
-    <string name="google_crash_reporting_api_key" translatable="false">YOUR_API_KEY</string>
-    <string name="google_storage_bucket" translatable="false">dead-hand-spy-app.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">691007221285</string>
+    <string name="google_api_key" translatable="false">AIzaSyAl0nJohWwHeJyE2YfJkIeVFcWc1v7KJqQ</string>
+    <string name="google_app_id" translatable="false">1:691007221285:android:d22a63c4efe594a04419cc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAl0nJohWwHeJyE2YfJkIeVFcWc1v7KJqQ</string>
+    <string name="google_storage_bucket" translatable="false">data-pool-4e358.firebasestorage.app</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="item_view_role_description">Tab</string>
@@ -2227,7 +2226,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="project_id" translatable="false">dead-hand-spy-app</string>
+    <string name="project_id" translatable="false">data-pool-4e358</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">
     com.google.android.material.search.SearchBar$ScrollingViewBehavior

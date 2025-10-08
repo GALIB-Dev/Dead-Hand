@@ -98,7 +98,6 @@ string back_to_main
 string configuration_warning
 string configure_system
 string dead_hand_title
-string default_web_client_id
 string first_fragment_label
 string gcm_defaultSenderId
 string google_api_key

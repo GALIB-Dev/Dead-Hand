@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691007221285",
+    "project_id": "data-pool-4e358",
+    "storage_bucket": "data-pool-4e358.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691007221285:android:d22a63c4efe594a04419cc",
+        "android_client_info": {
+          "package_name": "com.data.pool"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl0nJohWwHeJyE2YfJkIeVFcWc1v7KJqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
